@@ -6,7 +6,7 @@ import jestPlugin from "eslint-plugin-jest";
 /** @type {import('eslint').Linter.Config[]} */
 export default [
   {
-    ignores: ["coverage/**", "dist/**"], // Игнорируем папки coverage и dist
+    ignores: ["coverage/**", "dist/**", "babel.config.js"], // Игнорируем папки coverage и dist
   },
   {languageOptions: { 
     globals: {
